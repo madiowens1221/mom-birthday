@@ -1,0 +1,113 @@
+//part 1
+:host {
+    width: 100%;
+    height: 100%;
+}
+.part1 { 
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4c5698f0, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4c5698f0, #16222A);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.part2 {
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ffe799);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ffe799); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100vh;
+}
+
+.part3 {
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4c5698f0, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4c5698f0, #16222A);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100%;
+}
+.part4 {
+
+}
+.credit {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.birthdayTitle {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 400%;
+    text-shadow: 2px 2px 5px grey;
+}
+hr {
+    width: 70%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #252a4cf0;
+    padding: 0; 
+}
+.name {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 375%;
+    color: #252a4cf0;
+    text-shadow: 2px 2px 5px grey;
+}
+.about {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+}
+.picture-circle {
+    background-color: white;
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+}
+.picture-square {
+    background-color: white;
+    width: 250px; 
+    height: 250px; 
+    border: 2px solid white;
+}
+.rp-profile-content {
+    color: #252a4cf0;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+b {
+    color: red;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+img {
+    width: 240px; 
+    height: 240px;
+}
+
+.hi {
+    font-size: 75px;
+    color: #252a4cf0;
+
+}
+.mat-icon {
+    width: auto;
+    text-shadow: 2px 2px 5px grey;
+}
+.copyright {
+    text-shadow: none;
+    font-size: 15px;
+}
+.cake {
+    font-size: 75px;
+    text-shadow: 2px 2px 5px grey;
+}

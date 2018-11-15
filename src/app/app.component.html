@@ -1,20 +1,58 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="part1" fxLayout="row" fxLayoutAlign="center center">
+  <div class="birthdayTitle" fxLayout="column">
+    <div>
+        happy birthday!
+    </div>
+    <mat-icon class="cake">cake</mat-icon>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<div class="part2">
+  <div class="padding">
+    <div fxLayout="row">
+      <div fxFlex="30"></div>
+      <div fxFlex="40" fxLayout="row" fxLayoutAlign="space-between none" fxLayout.lt-xl="column" fxLayoutAlign.lt-xl="center center">
+  
+        <div ngStyle.gt-lg="padding-right: 20px;" ngStyle.lt-xl="box-sizing: border-box; text-align: center; " class="about" >
+          <div class="name">mom</div>
+          <hr>
+          <div class="rp-profile-content">
+            <p>I love you! I hope you have the best 29th birthday ever! You are the best sister a girl could ask for ;D</p>
+            <p>You better have lots of fun this month and make sure to celebrate for me. I wish I could be there with you, and I can't wait to see you next month!</p>
+            <p>Why I love you: (hold icon)</p>
+          </div>
+          <div>
+            <mat-icon matTooltip="love" class="hi">favorite</mat-icon>
+            <mat-icon matTooltip="family" class="hi">wc</mat-icon>
+            <mat-icon matTooltip="poolside" class="hi">pool</mat-icon>
+            <mat-icon matTooltip="beach" class="hi">beach_access</mat-icon>
+            <mat-icon matTooltip="always outdoors" class="hi">wb_sunny</mat-icon>
+            <mat-icon matTooltip="lemon drop martini" class="hi">local_bar</mat-icon>
+            <mat-icon matTooltip="nurse" class="hi">local_hospital</mat-icon>
+            <mat-icon matTooltip="new house" class="hi">home</mat-icon>
+            <mat-icon matTooltip="high maintainence" class="hi">room_service</mat-icon>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="part3"> 
+  <div fxFlex="30"></div>
+  <div fxFlex="40" fxLayout="row" fxLayoutAlign="space-between none" fxLayout.lt-xl="column" fxLayoutAlign.lt-xl="center center">
+    <div ngStyle.lt-xl="margin-top: 50px; margin-bottom: 25px;" class="picture-circle" fxLayout="row" fxLayoutAlign="center center">
+      <img src="https://i.imgur.com/VlgPP24.png" style="border-radius:50%">
+    </div>
+    <div ngStyle.lt-xl="margin: 25px 0;" class="picture-square" fxLayout="row" fxLayoutAlign="center center">
+      <img src="https://i.imgur.com/NHJwUbP.jpg">
+    </div>
+    <div ngStyle.lt-xl="margin: 25px 0;" class="picture-circle" fxLayout="row" fxLayoutAlign="center center">
+      <img src="https://i.imgur.com/4wm1IcL.png" style="border-radius:50%">
+    </div>
+  </div>
+</div>
+
+<div class="part4">
+    <div class="credit">made for mom by me <mat-icon class="copyright">copyright</mat-icon></div>
+</div>
